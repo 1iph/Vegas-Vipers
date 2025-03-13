@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Vegas Vipers MTB Race Team</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="logo.png" alt="Vegas Vipers MTB Logo" class="logo-img">
+                    <span class="logo-text">Vegas Vipers</span>
+                </div>
+                <nav class="nav-desktop">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#team" class="nav-link">Team</a>
+                    <a href="#events" class="nav-link">Events</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-header">
+            <div class="logo">
+                <img src="logo.png" alt="Vegas Vipers MTB Logo" class="logo-img">
+                <span class="logo-text">Vegas Vipers</span>
+            </div>
+            <button class="close-menu" id="closeMenu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="mobile-nav-links">
+            <a href="#home" class="mobile-nav-link">Home</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#team" class="mobile-nav-link">Team</a>
+            <a href="#events" class="mobile-nav-link">Events</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Vegas Vipers <span class="text-green">MTB</span></h1>
+                <p class="hero-subtitle">Composite Mountain Bike Race Team</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Join Our Team</a>
+                    <a href="#events" class="btn btn-secondary">Upcoming Events</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Vegas Vipers</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    The Vegas Vipers are a mountain bike composite MTB race team based in Las Vegas, Nevada. 
+                    We're passionate about the sport and dedicated to developing riders of all skill levels.
+                    Our team competes in various mountain biking events throughout Nevada and surrounding states.
+                </p>
+            </div>
+
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="feature-title">Performance</h3>
+                    <p class="feature-description">
+                        We focus on developing competitive riders through structured training and coaching.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="feature-title">Community</h3>
+                    <p class="feature-description">
+                        We build a supportive community of riders who share knowledge and encourage each other.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Safety</h3>
+                    <p class="feature-description">
+                        We prioritize rider safety through proper training, equipment, and trail etiquette.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Team</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Meet the dedicated riders who make up the Las Vegas Vipers MTB Race Team.
+                </p>
+            </div>
+
+            <div class="team-members">
+                <div class="team-member-card">
+                    <div class="team-member-image">
+                        <img src="https://via.placeholder.com/400" alt="John Doe">
+                    </div>
+                    <div class="team-member-info">
+                        <h3 class="team-member-name">John Doe</h3>
+                        <p class="team-member-role">Team Captain</p>
+                        <p class="team-member-bio">Experienced rider with 10+ years of competitive racing.</p>
+                    </div>
+                </div>
+
+                <div class="team-member-card">
+                    <div class="team-member-image">
+                        <img src="https://via.placeholder.com/400" alt="Jane Smith">
+                    </div>
+                    <div class="team-member-info">
+                        <h3 class="team-member-name">Jane Smith</h3>
+                        <p class="team-member-role">Lead Coach</p>
+                        <p class="team-member-bio">Former professional with expertise in technical trail riding.</p>
+                    </div>
+                </div>
+
+                <div class="team-member-card">
+                    <div class="team-member-image">
+                        <img src="https://via.placeholder.com/400" alt="Mike Johnson">
+                    </div>
+                    <div class="team-member-info">
+                        <h3 class="team-member-name">Mike Johnson</h3>
+                        <p class="team-member-role">Junior Team Lead</p>
+                        <p class="team-member-bio">Specializes in developing young talent and building fundamentals.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="#contact" class="btn btn-primary">Join Our Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Upcoming Events</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Check out our race schedule and join us at upcoming events.
+                </p>
+            </div>
+
+            <div class="events-list" id="eventsList">
+                <!-- Events will be loaded via JavaScript -->
+            </div>
+            
+            <div class="text-center" id="loadMoreContainer">
+                <button class="btn btn-outline" id="loadMoreBtn">Load More Events</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header light">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Interested in joining the team or have questions? Get in touch with us!
+                </p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 class="contact-info-title">Team Information</h3>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Las Vegas, NV, United States</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>(702) 630-2095</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>vegasvipersmtb@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Price Range</h4>
+                                <p>$</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/VegasVipersMTB/" target="_blank" rel="noopener noreferrer" class="social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h3 class="contact-form-title">Send Us a Message</h3>
+                    <form id="contactForm" class="contact-form"  action="https://formspree.io/f/xoveqowg"
+                    method="POST">
+                        <div id="formSuccess" class="form-success">
+                            Thank you for your message! We'll get back to you soon.
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone (optional)" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required class="form-textarea"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Send Message</button>
+                       
+                    </form>
+                </div>
+            </div>
+        </div>
+        <form>
+ 
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Vegas Vipers MTB Logo" class="footer-logo-img">
+                    <span class="footer-logo-text">Vegas Vipers MTB</span>
+                </div>
+                <div class="footer-copyright">
+                    &copy; <span id="currentYear"></span> Vegas Vipers Composite MTB Race Team. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
